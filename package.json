@@ -1,6 +1,6 @@
 {
   "name": "mustart-media-queries",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Mustart media queries",
   "main": "index.js",
   "scripts": {
