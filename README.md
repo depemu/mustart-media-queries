@@ -1,3 +1,3 @@
 # Mustart Media Queries
 
-Media queries sass mixins
+Sass mixins for media queries
