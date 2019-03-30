@@ -1,38 +1,38 @@
 @mixin media($min-width)
-  @media #{$screen} and (min-width: #{$min-width + 1px})
+  @media #{$mq-screen} and (min-width: #{$min-width + 1px})
     @content
 
 
 @mixin xx-small-up
-  +media($xx-small)
+  +media($mq-xx-small-width)
     @content
 
 
 @mixin x-small-up
-  +media($x-small)
+  +media($mq-x-small-width)
     @content
 
 
 @mixin small-up
-  +media($small)
+  +media($mq-small-width)
     @content
 
 
 @mixin medium-up
-  +media($medium)
+  +media($mq-medium-width)
     @content
 
 
 @mixin x-medium-up
-  +media($x-medium)
+  +media($mq-x-medium-width)
     @content
 
 
 @mixin large-up
-  +media($large)
+  +media($mq-large-width)
     @content
 
 
 @mixin x-large-up
-  +media($x-large)
+  +media($mq-x-large-width)
     @content
