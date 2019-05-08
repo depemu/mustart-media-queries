@@ -1,6 +1,6 @@
 {
   "name": "mustart-media-queries",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Sass mixins for media queries",
   "main": "index.js",
   "scripts": {
