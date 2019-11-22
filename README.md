@@ -1,15 +1,37 @@
-# Mustart Media Queries
+Sass mixins for media queries.
 
-Sass mixins for media queries
+## Getting started
+1. `yarn add mustart-media-queries`
 
-```css
+## Using on Stylesheets
+```sass
 @import '/path/to/core'
 
-+xx-small-up // for screen width more than 280px
-+x-small-up // for screen width more than 320px
-+small-up // for screen width more than 480px
-+medium-up // for screen width more than 600px
-+x-medium-up // for screen width more than 800px
-+large-up // for screen width more than 1024px
-+x-large-up // for screen width more than 1280px
+// for screen width more than 280px
++xx-small-up 
+  .your-class
+
+// for screen width more than 320px
++x-small-up
+  .your-class
+
+// for screen width more than 480px
++small-up 
+  .your-class
+ 
+// for screen width more than 600px
++medium-up
+  .your-class
+
+// for screen width more than 800px
++x-medium-up
+  .your-class
+
+// for screen width more than 1024px
++large-up
+  .your-class
+
+// for screen width more than 1280px
++x-large-up
+  .your-class
 ```
